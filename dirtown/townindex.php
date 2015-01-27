@@ -10,7 +10,7 @@ require 'vendor/autoload.php';
 
 error_reporting( E_ERROR );
 
-//require "House.php";  
+/*//require "House.php";  
 
 function __autoload($class_name) {
     include $class_name . '.php';
