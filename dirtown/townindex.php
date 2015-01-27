@@ -108,17 +108,21 @@ $streetArr[$k] = new Street($houseArr,$nameStreet,$lengthStreet,$coordinateStree
 $myobj = new Town($streetArr,$nameTown,$yearTown,$coordinateTownB,$coordinateTownE);
 
 
-/*$myobj->infoTown();
+
+
+
+echo 'Формат JSON '.$myobj->getJSON();
+
+echo "<br> Объект типа город (с заполненными случайным образом значениями атрибутов, включая улицы, дома и квартиры) <br> ";
+
+$myobj->infoTown();
 
 ///вызов метода который обращается к конкретному дому и конкретной квартире
 $myobj->infoSpecificTown(1,2,3);
 
 
 $myobj->taxTown();
-$myobj->humTown();   */
-
-
-echo 'Формат JSON '.$myobj->getJSON();
+$myobj->humTown();  
 
 
 
