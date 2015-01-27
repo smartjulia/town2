@@ -8,7 +8,7 @@ use Townmy\Flat as Flat;
 
 require 'vendor/autoload.php';
 
-/*error_reporting( E_ERROR );
+error_reporting( E_ERROR );
 
 //require "House.php";  
 
