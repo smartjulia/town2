@@ -1,0 +1,11 @@
+ {
+"repositories": [
+{
+"type" : "vcs",
+"url" : "https://github.com/smartjulia/town1"
+}
+],
+"require":{
+"smartjulia/town" : "dev-master"
+}
+} 
